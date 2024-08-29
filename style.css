@@ -17,6 +17,12 @@ body {
 
 /******************************* Navbar Style *********************************/
 
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 .navbar {
     background-image: var(--nav-bg-image);
 }
@@ -26,4 +32,38 @@ body {
     padding-left: 20px;
 }
 
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.bx-menu {
+    font-size: 2rem;
+}
+
 /****************************** Navbar End ******************************/
+
+/****************************** Banner style *****************************/
+
+#banner {
+    background-image: var(--nav-bg-image);
+    padding-top: 5%
+}
+
+#banner .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn {
+    margin: 20px;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner .bottom-img {
+    width: 100%;
+}
